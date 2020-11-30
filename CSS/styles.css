@@ -1,0 +1,98 @@
+.container-fluid
+{
+  padding : 3% 15px;
+}
+.navbar{
+  padding: 10px 30px 100px;
+}
+
+/* title */
+.title
+{
+  background-color: #0A043C;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.title-name{
+  color: white;
+  font-family: 'Piedra', cursive;
+  font-size: 4rem;
+  padding:20px 0 40px;
+}
+.download-buttons
+{
+  margin: 20px 10px 30px;
+}
+
+/* horizontal row */
+hr{
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #0A043C;
+  width :5%;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+/* about section */
+#about{
+  margin: 10px 40px;
+}
+
+/* feature section  */
+#features{
+  padding: 7% 10%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.feature-content{
+  font-size: 1rem;
+}
+.feature-icon{
+  color:#0A043C;
+}
+.feature-icon:hover
+{
+  color: #03506f;
+}
+
+/* review section */
+#review{
+  padding: 7% 10%;
+}
+.carousel-item{
+  background-color: #0A043C;
+  color: white;
+  text-align: center;
+  padding: 7% 12%;
+}
+
+/* pricing section */
+.card-deck
+{
+  padding: 7% 15%;
+}
+
+/* contact */
+.contact{
+  background-color:#0A043C;
+  text-align: center;
+  color:white;
+}
+.contact-icon{
+  color:white;
+  margin: 20px 10px;
+}
+
+/* content style for whole page */
+.content-style{
+  font-family:  'Montserrat', sans-serif;
+  line-height: 2;
+}
+
+/* mobile styling for sample */
+@media (max-width:200px){
+  .title-name{
+    padding: 5% 10%;
+  }
+}
